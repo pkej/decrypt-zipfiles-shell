@@ -32,6 +32,11 @@ I tried finding something like this yesterday, and ended up creating it myself, 
 I'm using 'unzip -tP fail' to test if a file needs a password. It seems to be very fast. I also do the same with each password in the password-file, only if the test pass will I do a real unzip. This saves me from creating most empty directories. I choose force overwrite as I don't work with any incremental downloads.
 
 ## TODO
+- [ ] Refactor output to functions for verbose and quiet 
+- [ ] Refactor other tests to functions
+- [ ] Reorder argument handling
+- [ ] Rethink use of directories and files
+- [ ] fix naming and use of arguments - some are implicit and more of them are requires
 - [ ] Better handling of overwrites, let the user select the customary "all, none, skip" etc. choices.
 - [ ] Delete flag.
 - [ ] Help flag.
